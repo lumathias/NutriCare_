@@ -89,4 +89,5 @@ Como paciente, eu gostaria de adicionar minhas refeições e calcular o consumo 
 &nbsp;&nbsp;1 - Paciente adiciona refeição  
 &nbsp;&nbsp;2 - Sistema calcula o consumo de calorias diário <br> 
 
-![PES DIAGRAM](https://github.com/lumathias/PES_Project/assets/94621391/8ce573c2-ed20-4d8e-826b-2aa6ad417071)
+![NutriCare Diagram](https://github.com/lumathias/PES_Project/assets/94621391/75c55b2b-6293-4cee-ac7c-08afd4ca4b96)
+
