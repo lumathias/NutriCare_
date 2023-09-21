@@ -7,6 +7,24 @@ Os pacientes conseguem visualizar seu plano alimentar de forma prática e simple
 
 ![PES DIAGRAM](https://github.com/lumathias/PES_Project/assets/94621391/8ce573c2-ed20-4d8e-826b-2aa6ad417071)
 
+# Users Stories
+Como nutricionista, gostaria de cadastrar novos alimentos
+
+Como nutricionista, gostaria de criar usuário para o paciente
+
+Como nutricionista, gostaria de gerenciar os pacientes
+
+Como nutricionista, gostaria de adicionar medidas dos pacientes
+
+Como nutricionista, gostaria de gerenciar planos dos pacientes
+
+Como paciente, gostaria de consultar meu plano alimentar
+
+Como paciente, gostaria de consultar meus dados
+
+Como paciente, gostaria de adicionar minhas refeições diárias e calcular o consumo de calorias
+
+
 # CASOS DE USO 
 ### Cadastro de usuário  
 **Ator:** Nutricionista  
