@@ -9,11 +9,19 @@ Os pacientes conseguem visualizar seu plano alimentar de forma prática e simple
 
                     CASOS DE USO
 Cadastro de usuário
+
     Ator: Nutricionista 
-    Fluxo Normal: 
-      1) O usuário informa email
-      2) Usuário informa nome 
-      3) Usuário informa senha
-    Extensões: 
-      1a)  Se usuário informar email já cadastrado, solicitar novo email ou redefinir senha
-      3a) Se usuário informar senha incorreta, solicitar novamente a senha ou redefini-la
+
+	Fluxo Normal: 
+    
+	  1) O usuário informa email
+      
+	  2) Usuário informa nome 
+      
+	  3) Usuário informa senha
+    
+	Extensões: 
+    
+	  1a)  Se usuário informar email já cadastrado, solicitar novo email ou redefinir senha
+      
+	  3a) Se usuário informar senha incorreta, solicitar novamente a senha ou redefini-la
