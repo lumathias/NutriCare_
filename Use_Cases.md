@@ -34,16 +34,23 @@
 &nbsp;&nbsp;1 - Selecionar paciente na lista.  
 &nbsp;&nbsp;2 - Escolhe próxima ação: adicionar/editar plano, remover paciente, adicionar/editar medidas;  
 
-### Plano alimentar  
+### Gerenciar Plano alimentar  
 **Ator:** Nutricionista  
 **Pré-condição:** Usuário estar autenticado e paciente já está cadastrado.  
-**Fluxo Normal:** Usuário realiza o gerenciamento do plano alimentar do paciente.  
+**Fluxo Normal:**  
+    1 - Usuário seleciona paciente
+    2 - Usuário cadastra refeições ao plano alimentar do paciente
+    3 - Usuário salva plano alimentar do paciente
 
 ### Gerenciar alimentos  
 **Ator:** Nutricionista  
 **Pré-condição:** usuário estar autenticado.  
-**Fluxo Normal:** Usuário adiciona ou remove alimento na lista de alimentos do aplicativo  
-**Extensões:** Se alimento já estiver cadastrado, informar o usuário  
+**Fluxo Normal:**  
+    1.1 - Usuário adiciona alimento na lista de alimentos do aplicativo 
+    2 - Usuário adiciona informação nutricional do alimento
+**Extensões:**  
+    1a - Se alimento já estiver cadastrado, informar o usuário.
+    2a - Se informações em formatos incorretos, informar o erro.
 
 ### Consultar plano  
 **Ator:** Paciente  
