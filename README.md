@@ -10,7 +10,7 @@ Os pacientes conseguem visualizar seu plano alimentar de forma prática e simple
 
 [CASOS DE USO] () 
 
-[DIAGRAMA DE CASOS DE USO] (https://github.com/lumathias/PES_Project/blob/main/NutriCare%20Diagram.jpeg)
+[DIAGRAMA DE CASOS DE USO](NutriCare Diagram.jpeg)
 
 ### Cadastro de usuário  
 **Ator:** Nutricionista  
