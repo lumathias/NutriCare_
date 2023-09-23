@@ -6,25 +6,12 @@ O  NutriCare é um aplicativo de acompanhamento nutricional que visa facilitar a
 Disponibilizando uma plataforma que permite ao nutricionista gerenciar seus pacientes de forma descomplicada. 
 Os pacientes conseguem visualizar seu plano alimentar de forma prática e simples. Além disso, é possível adicionar os alimentos consumidos em cada refeição para acompanhar a quantidade de calorias consumidas durante cada refeição/dia. 
 
-## Users Stories
-Como nutricionista, eu gostaria de cadastrar novos alimentos
+## [Users Stories] (https://github.com/lumathias/PES_Project/new/main)
 
-Como nutricionista, eu gostaria de criar usuário para o paciente
+## [CASOS DE USO] () 
 
-Como nutricionista, eu gostaria de gerenciar os pacientes
+## [DIAGRAMA DE CASOS DE USO] (https://github.com/lumathias/PES_Project/blob/main/NutriCare%20Diagram.jpeg)
 
-Como nutricionista, eu gostaria de adicionar medidas dos pacientes
-
-Como nutricionista, eu gostaria de gerenciar planos dos pacientes
-
-Como paciente, eu gostaria de consultar meu plano alimentar
-
-Como paciente, eu gostaria de consultar meus dados
-
-Como paciente, eu gostaria de adicionar minhas refeições e calcular o consumo de calorias no dia
-
-
-## CASOS DE USO 
 ### Cadastro de usuário  
 **Ator:** Nutricionista  
 **Fluxo Normal:**  
@@ -89,5 +76,5 @@ Como paciente, eu gostaria de adicionar minhas refeições e calcular o consumo 
 &nbsp;&nbsp;1 - Paciente adiciona refeição  
 &nbsp;&nbsp;2 - Sistema calcula o consumo de calorias diário <br> 
 
-![NutriCare Diagram](https://github.com/lumathias/PES_Project/assets/94621391/75c55b2b-6293-4cee-ac7c-08afd4ca4b96)
+
 
