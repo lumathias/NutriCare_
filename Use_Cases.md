@@ -38,20 +38,20 @@
 **Ator:** Nutricionista  
 **Pré-condição:** Usuário estar autenticado e paciente já está cadastrado.  
 **Fluxo Normal:**  
-    1 - Usuário seleciona paciente
-    2 - Usuário cadastra refeições ao plano alimentar do paciente
-    3 - Usuário salva e compartilha o plano alimentar do paciente
+&nbsp;&nbsp;1 - Usuário seleciona paciente
+&nbsp;&nbsp;2 - Usuário cadastra refeições ao plano alimentar do paciente
+&nbsp;&nbsp;3 - Usuário salva e compartilha o plano alimentar do paciente
 
 ### Gerenciar alimentos  
 **Ator:** Nutricionista  
 **Pré-condição:** usuário estar autenticado.  
 **Fluxo Normal:**  
-    1 - Usuário seleciona adicionar ou remover alimento  
-    2.1 - Usuário adiciona alimento e suas informações nutricionais a lista do aplicativo  
-    2.2 - Usuário seleciona alimento a ser removido.  
+&nbsp;&nbsp;1 - Usuário seleciona adicionar ou remover alimento  
+&nbsp;&nbsp;2.1 - Usuário adiciona alimento e suas informações nutricionais a lista do aplicativo  
+&nbsp;&nbsp;2.2 - Usuário seleciona alimento a ser removido.  
 **Extensões:**  
-    2.1a - Se alimento já estiver cadastrado, informar o usuário.  
-    2.1b - Se alguma informação nutricional estiver em formato incorreto, informar o erro.  
+&nbsp;&nbsp;2.1a - Se alimento já estiver cadastrado, informar o usuário.  
+&nbsp;&nbsp;2.1b - Se alguma informação nutricional estiver em formato incorreto, informar o erro.  
 
 ### Consultar plano  
 **Ator:** Paciente  
