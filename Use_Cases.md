@@ -39,7 +39,7 @@
 **Pré-condição:** Usuário estar autenticado e paciente já está cadastrado.  
 **Fluxo Normal:**  
 &nbsp;&nbsp;&nbsp;1 - Usuário seleciona paciente
-&nbsp;&nbsp;&nbsp;2 - Usuário cadastra refeições ao plano alimentar do paciente
+&nbsp;&nbsp;&nbsp;2 - Usuário cadastra refeições ao plano alimentar do paciente de acordo com o seu perfil
 &nbsp;&nbsp;&nbsp;3 - Usuário salva e compartilha o plano alimentar do paciente
 
 ### Gerenciar alimentos  
