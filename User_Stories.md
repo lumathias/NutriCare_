@@ -1,7 +1,7 @@
 #User Stories
 
 1 - Como nutricionista, eu gostaria de cadastrar novos alimentos  
-  1.1 - Cadastrar novo alimento, informando o nome do alimento e suas as calorias do alimento  
+  1.1 - Cadastrar novo alimento, informando o nome do alimento, quantidade de proteinas, carboidratos, gorduras e calorias  
 
 2 - Como nutricionista, eu gostaria de criar usuário para o paciente  
   2.1 - Criar usuário, informando email do paciente e gerando uma senha aleátoria. 
@@ -14,9 +14,12 @@
   4.1 - Adicionar medidas do paciente 
 
 5 - Como nutricionista, eu gostaria de gerenciar planos dos pacientes
+  5.1 - Adicionar alimentos da dieta de acordo com o perfil do paciente
 
 6 - Como paciente, eu gostaria de consultar meu plano alimentar
-
+  6.1 - Vizualizar qual plano alimentar o nutricionista recomendou.
+  
 7 - Como paciente, eu gostaria de consultar meus dados
-
+  7.1 - Vizualizar medidas que foram cadastradas pelo nutricionista.
+  
 8 - Como paciente, eu gostaria de adicionar minhas refeições e calcular o consumo de calorias no dia
