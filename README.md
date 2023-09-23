@@ -6,7 +6,7 @@ O  NutriCare é um aplicativo de acompanhamento nutricional que visa facilitar a
 Disponibilizando uma plataforma que permite ao nutricionista gerenciar seus pacientes de forma descomplicada. 
 Os pacientes conseguem visualizar seu plano alimentar de forma prática e simples. Além disso, é possível adicionar os alimentos consumidos em cada refeição para acompanhar a quantidade de calorias consumidas durante cada refeição/dia. 
 
-[Users Stories](User_Stories)
+[Users Stories](User_Stories.md)
 
 [CASOS DE USO] () 
 
