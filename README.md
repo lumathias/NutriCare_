@@ -10,4 +10,4 @@ Os pacientes conseguem visualizar seu plano alimentar de forma prática e simple
 
 [CASOS DE USO](Use_Cases.md) 
 
-[DIAGRAMA DE CASOS DE USO](NutriCare_Diagram.jpeg)
+[DIAGRAMA DE CASOS DE USO](NutriCare_Diagram.md)
