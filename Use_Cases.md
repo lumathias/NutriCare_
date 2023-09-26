@@ -1,4 +1,4 @@
-### Cadastro de usuário  
+### Cadastrar usuário  
 **Ator:** Nutricionista  
 **Fluxo Normal:**  
 &nbsp;&nbsp;&nbsp;1 - O usuário informa email  
@@ -8,7 +8,7 @@
 &nbsp;&nbsp;&nbsp;1a - Se usuário informar email já cadastrado, solicitar novo email ou redefinir senha  
 &nbsp;&nbsp;&nbsp;3a - Se usuário informar senha incorreta, solicitar novamente a senha ou redefini-la  
 
-### Autenticação  
+### Autenticar usuário 
 **Ator:** Nutricionista / Paciente  
 **Fluxo Normal:**  
 &nbsp;&nbsp;&nbsp;1 - Usuário informa email  
@@ -17,7 +17,7 @@
 &nbsp;&nbsp;&nbsp;1a - Se usuário informar email incorreto, informa que email está incorreto e solicita novo login.   
 &nbsp;&nbsp;&nbsp;2a - Se usuário informar senha incorreta, solicitar novamente a senha ou redefini-la  
 
-### Cadastro de paciente  
+### Cadastrar paciente  
 **Ator:** Nutricionista  
 **Pré-condição:** usuário estar autenticado.  
 **Fluxo Normal:**  
@@ -27,7 +27,7 @@
 **Extensões:**  
 &nbsp;&nbsp;&nbsp;1a - Se e-mail já estiver cadastrado, solicitar outro e-mail.  
 
-### Gerenciamento de pacientes  
+### Gerenciar pacientes  
 **Ator:** Nutricionista  
 **Pré-condição:** usuário estar autenticado  
 **Fluxo Normal:**  
