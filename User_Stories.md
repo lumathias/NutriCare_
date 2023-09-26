@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;2.1 - Criar usuário, informando email do paciente e gerando uma senha aleátoria; <br> 
   
 3 - *Como nutricionista, eu gostaria de gerenciar os pacientes* <br>
-&nbsp;&nbsp;&nbsp;3.1 - Gerenciar pacientes, adicionando paciente; retorna paciente na lista  <br>
+&nbsp;&nbsp;&nbsp;3.1 - Gerenciar pacientes, adicionando paciente;  <br>
 &nbsp;&nbsp;&nbsp;3.2 - Gerenciar pacientes, removendo paciente <br>
 
 4 - *Como nutricionista, eu gostaria de adicionar medidas dos pacientes*  <br>
