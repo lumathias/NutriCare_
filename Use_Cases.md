@@ -3,12 +3,11 @@
 ### Cadastrar usuário  
 **Ator:** Nutricionista  
 **Fluxo Normal:**  
-&nbsp;&nbsp;&nbsp;1 - O usuário informa email  
-&nbsp;&nbsp;&nbsp;2 - Usuário informa nome  
-&nbsp;&nbsp;&nbsp;3 - Usuário informa senha  
+&nbsp;&nbsp;&nbsp;1 - Usuário informa um email  
+&nbsp;&nbsp;&nbsp;2 - Usuário informa o nome  
+&nbsp;&nbsp;&nbsp;3 - Usuário informa uma senha  
 **Extensões:**  
-&nbsp;&nbsp;&nbsp;1a - Se usuário informar email já cadastrado, solicitar novo email ou redefinir senha  
-&nbsp;&nbsp;&nbsp;3a - Se usuário informar senha incorreta, solicitar novamente a senha ou redefini-la  
+&nbsp;&nbsp;&nbsp;1a - Se usuário informar email já cadastrado, solicitar novo email ou redefinir senha    
 
 ### Autenticar usuário 
 **Ator:** Nutricionista / Paciente  
