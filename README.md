@@ -1,4 +1,4 @@
-Repositório do projeto das disciplinas *Projeto de Engenharia de Software* (DCA0205) e *Banco de Dados* (DCA0207) da UFRN.
+Repositório do projeto das disciplinas *Projeto de Engenharia de Software* (DCA0205) e *Banco de Dados* (DCA0207) do curso de Engenharia da Computação da UFRN.
 
 
 # NutriCare
