@@ -1,11 +1,20 @@
-import paciente
+import paciente, alimento
 
-# def gerenciarAlimento: 
+def menu():
+  alimento.cadastrar_alimento()
 
-# def cadastrarPaciente: 
+# Cadastro de paciente pelo nutri: 
+def cadastro():
+  while True:
+    paciente.cadastrar_paciente()
+    add = input("Adicionar outro paciente (S/N)? ").lower()
+    if add != 's':
+      break
 
-# def gerenciarPlano:
+def gerenciarPlano(paciente):
+  if paciente in paciente.pacientes:
+    for i in range():
+      
+# def gerenciarMedidas():
 
-# def gerenciarMedidas:
-
-# def login:
+# def login():

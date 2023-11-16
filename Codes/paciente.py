@@ -1,13 +1,22 @@
+import pandas as pd
 
-#classe Paciente
-class Paciente:
-    def __init__(self, nome, peso, altura, idade, sexo, fatoratividade):
-        self.nome = nome
-        self.peso = peso
-        self.altura = altura
-        self.idade = idade
-        self.sexo = sexo
-        self.fatoratividade = fatoratividade
+#Data frame Pacientes
+
+pacientes_db = pd.DataFrame(columns=['id_paciente','Nome', 'Idade', 'Gênero', 'Altura', 'Peso', 'Problemas_de_saúde', 'Dieta'])
+
+# Function to add a new patient record
+def cadastrar_paciente():
+  id_paciente = int(input("ID do paciente: "))
+  nome = input("Nome: ")
+  idade = int(input("Idade: "))
+  genero = input("Gênero: ")
+  altura = float(input("Altura (cm): "))
+  peso = float(input("Peso (kg): "))
+  medical_conditions = input("Problema(s) de saúde: ")
+  diet_plan = input("Plano alimentar: ")
+
+  pacientes_db.loc[len(pacientes_db)] = [id_paciente, nome, idade, genero, altura, peso, medical_conditions, diet_plan]
+
 
 #calcular taxa metabolismo sem fator atividade
 def calcular_tmb(Paciente):
@@ -35,8 +44,10 @@ def fator_atividade(Paciente):
     result_tmb_final = tmb * 1.9
   return result_tmb_final
 
-# def consultarPlano:
+# def consultarPlano(Paciente):
+#  if Paciente == True:
 
-# def consultarDados:
 
-# def registrarRefeicao: 
+# def consultarDados(Paciente):
+
+# def registrarRefeicao(Paciente):
