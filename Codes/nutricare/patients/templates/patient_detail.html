@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ patient.name }} - Plano Alimentar</title>
+</head>
+<body>
+    <h1>{{ patient.name }}</h1>
+    <p>Altura: {{ patient.height }} cm</p>
+    <p>Peso: {{ patient.weight }} kg</p>
+
+    <h2>Plano Alimentar</h2>
+    <p>{{ patient.plan }}</p>
+
+    <h2>Refeições</h2>
+    <ul>
+        {% for meal in meals %}
+            <li>{{ meal.name }} - {{ meal.calories }} cal</li>
+        {% endfor %}
+    </ul>
+    <h2>Adicionar Refeição</h2>
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ meal_form.as_p }}
+        <button type="submit">Adicionar Refeição</button>
+    </form>
+</body>
+</html>
