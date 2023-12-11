@@ -4,6 +4,11 @@
     <title>{{ patient.name }} - Plano Alimentar</title>
 </head>
 <body>
+    {% if user.is_authenticated %}
+    <p>Bem-vindo, {{ user.username }}! <a href="{% url 'patients:logout' %}">Logout</a></p>
+    {% else %}
+    <p><a href="{% url 'patients:login' %}">Login</a></p>
+    {% endif %}
     <h1>{{ patient.name }}</h1>
     <p>Altura: {{ patient.height }} cm</p>
     <p>Peso: {{ patient.weight }} kg</p>

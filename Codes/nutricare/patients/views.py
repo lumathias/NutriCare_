@@ -1,6 +1,7 @@
 from django.shortcuts import redirect, render, get_object_or_404
 from .models import Meal, Patient
 from .forms import MealForm
+from django.contrib.auth.decorators import login_required
 
 
 def add_meal(request, patient_id):
@@ -15,6 +16,6 @@ def add_meal(request, patient_id):
 
     return render(request, 'add_meal.html', {'patient': patient, 'meal_form': meal_form})
 
-
-def patient_detail(request):
-    return patient_detail(Patient)
+@login_required
+def patient_detail(request, patient_id):
+    return render(request, 'patient_detail.html', {'patient':patient_id})
