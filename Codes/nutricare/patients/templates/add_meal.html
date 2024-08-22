@@ -1,8 +1,0 @@
-<!-- patients/templates/patients/add_meal.html -->
-
-<h2>Adicionar Refeição para {{ patient.name }}</h2>
-<form method="post" action="">
-    {% csrf_token %}
-    {{ meal_form.as_p }}
-    <button type="submit">Adicionar Refeição</button>
-</form>
