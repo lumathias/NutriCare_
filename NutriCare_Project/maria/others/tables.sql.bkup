@@ -1,0 +1,17 @@
+
+######################################################
+CREATE TEMPORARY TABLE tempTable (
+    alimento VARCHAR(255),
+    Energia_Kcal FLOAT,
+    Carboidrato_total FLOAT,
+    Proteina FLOAT
+);  
+
+LOAD DATA LOCAL INFILE 'C:\Users\luisa\Documents\UF\Banco_de_Dados\nutriCare\Alimentos_Brasileiros.csv'
+INTO TABLE tempTable
+FIELDS TERMINATED BY ','  -- especifica que os campos no arquivo CSV são separados por ,
+ENCLOSED BY '"'           -- se os campos estiverem com " "
+LINES TERMINATED BY '\n'  -- especifica que cada linha no arquivo é uma linha nova
+IGNORE 1 LINES            -- ignora a primeira linha 
+(`alimento`, `Energia_Kcal`, `Carboidrato_total`, `Proteina`);  -- Especifica as colunas na ordem que aparecem no arquivo CSV
+

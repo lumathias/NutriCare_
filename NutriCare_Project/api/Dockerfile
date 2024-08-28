@@ -12,7 +12,7 @@ COPY ./api-maria.py /app/
 
 WORKDIR /app
 
-ENV FLASK_APP=api-maria.py
+ENV FLASK_APP = api-maria.py
 
 EXPOSE 8080
 

@@ -1,29 +1,44 @@
 services:
-  db:
-    image: mysql:latest
-    restart: always
+  flask-api:
+    build: api
+    container_name: flask-api
+    env_file:
+      - .env
     environment:
-      MYSQL_ROOT_PASSWORD: root
-    volumes:
-      - mysql_storage:/var/lib/mysql/
-    networks:
-      - nutricare_mysql
+      DB_HOST: ${DB_HOST}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_USER: ${DB_USER}
+      DB_NAME: ${DB_NAME}
+      FLASK_APP: ${FLASK_APP}
+    depends_on:
+      - mariadb
     ports:
-      - 3307:3306
+      - ${PORT}:${PORT}
+    networks:
+      - flask-api-network
       
-  phpmyadmin:
-    image: phpmyadmin
-    restart: always
-    ports:
-      - 8080:80
+  mariadb:
+    image: mariadb:10.5
+    container_name: mariadb
+    env_file:
+      - .env
     environment:
-      - PMA_ARBITRARY=1
+      DB_HOST: ${DB_HOST}
+      MARIADB_ROOT_PASSWORD: ${DB_PASSWORD}
+      MARIADB_USER: ${DB_USER}
+      MARIADB_DATABASE: ${DB_NAME}
+    volumes:
+      - /home/ubuntu/bd/maria/sql-script/CreateTable.sql:/docker-entrypoint-initdb.d/dump.sql
+      - dbvolume:/var/lib/mysql
+    ports:
+      - "3306:3306"
     networks:
-      - nutricare_mysql
-    
-volumes:
-  mysql_storage:
+      - flask-api-network
+    restart: unless-stopped
 
 networks:
-  nutricare_mysql:
+  flask-api-network:
     driver: bridge
+
+volumes:
+  dbvolume:
