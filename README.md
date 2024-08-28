@@ -14,4 +14,4 @@ Os pacientes conseguem visualizar seu plano alimentar de forma prática e simple
 
 4. [VÍDEO DE APRESENTAÇÃO](https://drive.google.com/file/d/1LFzc1N9cA6g2FOHycAOkgafLJbvKSTKi/view?usp=drive_link)
 
-5. [CÓDIGOS](https://github.com/lumathias/PES_Project/tree/main/Codes)
+5. [CÓDIGOS](https://github.com/lumathias/NutriCare_/tree/main/NutriCare_Project)
